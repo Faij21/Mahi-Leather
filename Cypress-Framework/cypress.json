@@ -1,0 +1,11 @@
+{
+
+    "env": {
+            "url": "https://mahileather.com/"
+    }, 
+    "testFiles": "**/*.feature",
+
+        "viewportWidth": 1500,
+        "viewportHeight": 900,
+        "defaultCommandTimeout":10000
+}

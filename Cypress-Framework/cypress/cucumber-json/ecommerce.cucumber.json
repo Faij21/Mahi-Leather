@@ -1,0 +1,204 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login functionality for a Mahi Leather.",
+    "line": 1,
+    "id": "login-functionality-for-a-mahi-leather.",
+    "tags": [],
+    "uri": "ecommerce.feature",
+    "elements": [
+      {
+        "id": "login-functionality-for-a-mahi-leather.;verify-the-login-functionality-with-invalid-credentials.",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "verify the login functionality with invalid Credentials.",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open Mahi Leather website.",
+            "result": {
+              "status": "passed",
+              "duration": 17335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on Account option.",
+            "result": {
+              "status": "passed",
+              "duration": 1725000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "pavan123@gmail.com",
+                      "asdf123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter invalid Email and Password and click on Login button.",
+            "result": {
+              "status": "passed",
+              "duration": 18800000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Verify the Incorrect email or password alert error.",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Verify the website is open or not.",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-functionality-for-a-mahi-leather.;verify-the-place-order-details",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify the place order details",
+        "tags": [
+          {
+            "name": "@ProductSmoke",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I open Mahi Leather website.",
+            "result": {
+              "status": "passed",
+              "duration": 9515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click on satchels Collections.",
+            "result": {
+              "status": "passed",
+              "duration": 12762000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I add items to cart.",
+            "result": {
+              "status": "passed",
+              "duration": 34756000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Validate the prices.",
+            "result": {
+              "status": "passed",
+              "duration": 3784000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-functionality-for-a-mahi-leather.;verify-the-colors-and-warranty-of-product",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify the colors and warranty of product",
+        "tags": [
+          {
+            "name": "@Smoke2",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I open Mahi Leather website.",
+            "result": {
+              "status": "passed",
+              "duration": 8074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I click on satchels Collections.",
+            "result": {
+              "status": "passed",
+              "duration": 6527000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click on a product and Verify the warranty of a product.",
+            "result": {
+              "status": "passed",
+              "duration": 16469000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "verify the colors of a product.",
+            "result": {
+              "status": "passed",
+              "duration": 26847000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
